@@ -21,7 +21,7 @@ div.container {
     width: 90%;
     padding: 25px;
     position: absolute;
-    top: 50%;
+    top: 30%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     left: 50%;
@@ -34,7 +34,7 @@ div.container input {
     padding: 15px;
     height: 50px;
     width: 60%;
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
     background-color: var(--bgcolor);
     border: var(--bgcolor);
@@ -64,7 +64,7 @@ input[type='number']::-webkit-outer-spin-button {
 }
 
 h1#rep {
-    top: 150px;
+    top: 50px;
     font-size: 60px;
     position: relative;
 }
@@ -76,7 +76,7 @@ div#menu {
     height: 300px;
     background-color: var(--menu);
     z-index: 1;
-    top: 45%;
+    top: 25%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     left: 50%;
@@ -111,4 +111,19 @@ button#start {
 
 button#start:hover {
     border-radius: 35px;
+}
+
+div#prev {
+    margin: 0 auto;
+    position: absolute;
+    width: 80%;
+    background-color: rgba(31, 31, 31, 0.822);
+    top: 65%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-radius: 15px;
+    visibility: initial;
 }
