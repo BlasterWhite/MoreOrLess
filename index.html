@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More or Less</title>
+    <!-- Style -->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body style="background-color: #262626;">
+    <div id="menu">
+        <h4>The goal of this game is to find the random number the computer will say if the number you guess is more or less than his number.<br>
+            Note : you can choose the range of the random number (default is 0 to 100).
+        </h4>
+        <input id="range" type="number" placeholder="Range ?" value="100" max="100000"><br>
+        <button id="start" onclick="start()">Start the Game</button>
+    </div>
+    <h1 id="rep">Good Luck</h1>
+    <div class="container">
+        <input type="number" id="guess" placeholder="Number ?"><br>
+        <button onclick="check()">Submit</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
